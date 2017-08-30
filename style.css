@@ -1,0 +1,163 @@
+body{
+background-color:#FFF;
+font-size:14px;
+font-family: 'Abel', sans-serif;
+}
+
+#chatbox{
+width:300px;
+position:fixed;
+background-color:#FFF;
+bottom:0;
+right:0;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+margin-right:40px;
+}
+#chatbox .heading{
+color:#FFF;
+font-size:14px;
+cursor:pointer;
+padding:10px 12px;
+background-color:#333;
+font-family: 'Arial',sans-serif;
+}
+.video{
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -80px 0px transparent;
+height: 32px;
+width: 29px;
+border:none;
+}
+.sett{
+    background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -392px -448px transparent;
+    height: 32px;
+    width: 29px;
+	border:none;
+
+}
+.add{
+border:none;
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -122px -359px transparent;
+height: 29px;
+width: 29px;
+}
+.smile{
+height: 18px;
+float:left;
+width: 19px;
+border:none;
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -147px -33px transparent;
+}
+.setting{
+padding-left:5px;
+padding-right:5px;
+background-color: rgb(229, 229, 229);
+height: 32px;
+padding-top: 3px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#line{
+
+top: 0px;
+left: 0px;
+right: 0px;
+height: 2px;
+background: none repeat scroll 0% 0% rgb(83, 169, 63);
+}
+.logo{
+    height: 14px;
+    width: 14px;
+	float:left;
+	margin-right:10px;
+    background: url("https://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -408px -67px transparent;
+}
+}
+
+#chatbox .heading span{
+margin-left:5px;
+margin-bottom:10px;
+float:left;
+margin-top:-10px;
+}
+.right{
+float:right;
+color:#DDDDDD;
+margin-top:-5px;
+}
+#style:hover{
+opacity: 1;
+background-color: rgb(115, 115, 115);
+cursor:pointer;
+color:#FFF;
+}
+.one{
+
+height: 24px;
+width: 24px;
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -306px -257px transparent;
+border:none;
+}
+.two{
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -254px -22px transparent;
+height: 24px;
+width: 24px;
+border:none;
+}
+.three{
+background: url("http://ssl.gstatic.com/chat/babble/sprites/common-6c7f09a78a17443a19375155aed5c9f0.png") no-repeat scroll -65px -67px transparent;
+height: 24px;
+width: 24px;
+height: 24px;
+width: 24px;
+border:none;
+}
+#chatmessage{
+background-color: rgb(229, 229, 229);
+height:250px;
+overflow:auto;
+padding:10px;
+border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#chatmessage a{
+text-decoration:none;
+font-size:14px;
+color:#333;
+
+
+}
+#hide{
+
+}
+#chatmessage span{
+margin-bottom:7px;
+padding:4px 4px;
+width:100%;
+font-size:14px;
+background-color:#FFF;
+margin-top:5px;
+color:black;
+}
+#textarea{
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15) inset;
+}
+
+
+#textarea input:focus{
+    border: 1px solid rgb(77, 144, 254);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15) inset;
+float:left;
+}
+#textarea input{
+border:none;
+float:left;
+padding:5px;
+width:100%;
+height:40px;
+font-size:13px;  border-left: 1px solid #DDDDDD;  border-right: 1px solid #DDDDDD;
+}
+#textarea input:hover{
+
+}
